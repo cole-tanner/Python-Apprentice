@@ -22,7 +22,10 @@ turtle.setup (width=300, height=300)    # Set the size of the window
 
 tina = turtle.Turtle() 
 tina.color("yellow")
-tina.begin_fill()                 # Create a turtle named tina
+tina.begin_fill()
+
+window=turtle.Screen ()                # Create a turtle named tina
+window.bgcolor('teal')
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
 tina.speed(1)                           # Make the turtle move as fast, but not too fast. 
@@ -87,8 +90,32 @@ tina.left(90)
 tina.forward(20)
 tina.pendown()
 
+tina.penup()
+tina.begin_fill()
+tina.fillcolor("white")
 tina.right(90)
 tina.forward(40) 
+
+tina.forward(50)
+tina.left(90)
+
+tina.forward(20)
+tina.left(90)
+
+tina.forward(240)
+tina.left(90)
+
+tina.forward(20)
+tina.left(90)
+tina.forward(40) 
+tina.forward(100)
+tina.pendown()
+tina.end_fill()
+
+
+
+
+
 
 
 
