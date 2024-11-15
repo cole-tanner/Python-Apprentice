@@ -28,7 +28,8 @@ window=turtle.Screen ()                # Create a turtle named tina
 window.bgcolor('turquoise')
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(100000)                           # Make the turtle move as fast, but not too fast. 
+tina.speed(100000) 
+for i in range(10000000000000000000000)                         # Make the turtle move as fast, but not too fast. 
 tina.forward(150)                     # Move tina forward by the forward distance
 tina.left(90)                           # Turn tina left by the left turn
 
